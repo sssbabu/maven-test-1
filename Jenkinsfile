@@ -4,7 +4,7 @@ tools {
         maven 'M2_HOME'  // Adjust Maven version if needed
     }
  agent none
- 
+  stages{
   stage("build and SonarQube Analysis")
   {
    agent any
@@ -17,4 +17,4 @@ tools {
 	}
   }
  }
-
+ }
