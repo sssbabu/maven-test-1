@@ -7,7 +7,7 @@ pipeline {
     steps {
 	 withSonarQubeEnv('testsonarq')
 	 {
-	  sh 'mvn clean package sonar'
+	  sh 'mvn clean package sonar:sonar'
 	 }
 	}
   }
