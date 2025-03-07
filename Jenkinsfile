@@ -25,7 +25,7 @@ pipeline{
 	  
 	  stage("checkout"){
 	   steps{
-	   git 'https://github.com/ashisnishanka/maven-test.git'
+	   git 'https://github.com/sssbabu/maven-test-1.git'
 	   }
 	                  }
 	
